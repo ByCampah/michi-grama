@@ -277,4 +277,6 @@ function verificarFinDeJuego(nombreSala) {
     }
 }
 
-server.listen(3000, () => console.log('🐱 Servidor del Michigrama en http://localhost:3000'));
+// Render nos asigna el puerto automáticamente en process.env.PORT. Si no existe, usa el 3000 local.
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => console.log(`🐱 Servidor del Michigrama activo en el puerto ${PORT}`));
