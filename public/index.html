@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Michigrama - 1vs1 Neón</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+    <div id="pantalla-inicio" class="pantalla-capa">
+        <div class="login-box">
+            <h1>⌨️ MICHIGRAMA</h1>
+            <p style="color: #888; font-size: 12px; margin-top: 4px;">Duelo Táctil de Crucigramas 1vs1</p>
+            
+            <input type="text" id="input-nombre" placeholder="Tu Michi-Nombre" maxlength="12">
+            <input type="text" id="input-sala" placeholder="Código de Sala (ej: pepo123)" maxlength="15" style="border-color: #ffaa00;">
+            
+            <div class="selector-nivel-block">
+                <label style="font-size: 12px; font-weight: bold; color: #ffaa00; margin-bottom: 6px; display: block;">Modo de Juego:</label>
+                
+                <div class="tabs-modo">
+                    <button id="tab-azar" class="tab-btn activo">🎲 Al Azar</button>
+                    <button id="tab-manual" class="tab-btn">🔢 Elegir Nivel</button>
+                </div>
+                
+                <div id="panel-manual" class="panel-opcion oculto">
+                    <div style="display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 10px;">
+                        <label style="color: #ccc; font-size: 13px;">Nivel Nro:</label>
+                        <input type="number" id="input-num-nivel" value="1" min="1" max="100" class="input-nivel-num">
+                    </div>
+                    <div id="preview-titulo" class="preview-titulo-nivel">Tablero: Redes y PC</div>
+                </div>
+            </div>
+
+            <div class="row-botones-login">
+                <button id="btn-crear-sala" class="btn-crear">➕ Crear Sala</button>
+                <button id="btn-unirse-sala" class="btn-unirse">🤝 Unirse a Sala</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contenedor-principal">
+        <div class="col-izq">
+            <h1 id="titulo-juego">Cargando Tablero...</h1>
+            
+            <div id="grilla" class="grilla"></div>
+
+            <div class="panel-construccion">
+                <div id="bloque-juego-activo" class="bloque-juego-activo" style="display: flex; flex-direction: column; gap: 12px; width: 100%;">
+                    <p id="pista-texto-activa" style="font-size: 13px; color: #ffaa00; font-style: italic; text-align: center;">Seleccioná una pista de la lista o tocá la grilla para arrancar</p>
+                    <div id="barra-respuesta" class="barra-respuesta"></div>
+                    <div id="banco-burbujas" class="banco-burbujas"></div>
+                    <button id="btn-confirmar" class="btn-confirmar" disabled>Confirmar Respuesta</button>
+                </div>
+
+                <div id="bloque-final-game" class="bloque-final-game oculto">
+                    <div id="box-ganador-embed" class="txt-ganador-embed">👑 ¡Partida Terminada!</div>
+                    <div class="row-botones-final">
+                        <button id="btn-volver-menu" class="btn-final-accion btn-menu-v">🏠 Volver al Menú</button>
+                        <button id="btn-jugar-azar" class="btn-final-accion btn-azar-v">🎲 Jugar Otro al Azar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-der">
+            <div id="marcador" class="marcador">Esperando rivales...</div>
+            
+            <div class="chat-header">
+                <p style="font-size: 12px; font-weight: bold; color: #ffaa00;">📋 Lista de Pistas:</p>
+                <button id="btn-audio" class="btn-audio">🔊 Sonido: ON</button>
+            </div>
+            
+            <div id="lista-pistas" class="lista-pistas-box"></div>
+
+            <div class="chat-box">
+                <div id="mensajes" class="mensajes"></div>
+                <div class="chat-input-block">
+                    <input type="text" id="input-msg" placeholder="Escribí al chat..." maxlength="60">
+                    <button id="btn-enviar">✏️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/client.js"></script>
+</body>
+</html>

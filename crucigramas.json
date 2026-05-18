@@ -1,0 +1,46 @@
+[
+  {
+    "nivel": 1,
+    "titulo": "Aventuras y Magia",
+    "filas": 10,
+    "columnas": 10,
+    "pistas": [
+      { "id": 1, "palabra": "PELO", "fila": 0, "col": 0, "dir": "H", "pista": "Cabello que crece en la cabeza" },
+      { "id": 2, "palabra": "REINO", "fila": 0, "col": 5, "dir": "H", "pista": "Territorio gobernado por un monarca o rey" },
+      { "id": 3, "palabra": "MARCA", "fila": 2, "col": 0, "dir": "H", "pista": "Nombre comercial de un producto" },
+      { "id": 4, "palabra": "PAVO", "fila": 2, "col": 6, "dir": "H", "pista": "Ave grande que se suele comer en Navidad" },
+      { "id": 5, "palabra": "QUESO", "fila": 4, "col": 0, "dir": "H", "pista": "Lácteo amarillo o blanco al que los ratones aman" },
+      { "id": 6, "palabra": "NOTA", "fila": 4, "col": 6, "dir": "H", "pista": "Calificación de un examen o símbolo musical" },
+      { "id": 7, "palabra": "CRISTAL", "fila": 6, "col": 0, "dir": "H", "pista": "Vidrio transparente muy frágil" },
+      { "id": 8, "palabra": "JUEGO", "fila": 8, "col": 0, "dir": "H", "pista": "Actividad recreativa o título de Steam" },
+      { "id": 9, "palabra": "SEDA", "fila": 8, "col": 6, "dir": "H", "pista": "Tela muy suave y cara producida por gusanos" },
+      { "id": 10, "palabra": "ORCOS", "fila": 0, "col": 3, "dir": "V", "pista": "Monstruos verdes enemigos de los elfos" },
+      { "id": 11, "palabra": "ORO", "fila": 0, "col": 9, "dir": "V", "pista": "Metal precioso de color amarillo" },
+      { "id": 12, "palabra": "PANELES", "fila": 2, "col": 6, "dir": "V", "pista": "Placas solares que dan energía (Plural)" },
+      { "id": 13, "palabra": "CAJA", "fila": 6, "col": 0, "dir": "V", "pista": "Recipiente de cartón para guardar cosas" },
+      { "id": 14, "palabra": "NADA", "fila": 6, "col": 8, "dir": "V", "pista": "Ausencia total de cosas, el vacío absoluto" }
+    ]
+  },
+  {
+    "nivel": 2,
+    "titulo": "Hardware y Web",
+    "filas": 10,
+    "columnas": 10,
+    "pistas": [
+      { "id": 1, "palabra": "ZOOM", "fila": 0, "col": 0, "dir": "H", "pista": "Programa clásico para hacer videollamadas" },
+      { "id": 2, "palabra": "TECLA", "fila": 0, "col": 5, "dir": "H", "pista": "Cada uno de los botones de tu teclado mecánico" },
+      { "id": 3, "palabra": "BANDA", "fila": 2, "col": 0, "dir": "H", "pista": "____ ancha, conexión rápida a internet" },
+      { "id": 4, "palabra": "WIFI", "fila": 2, "col": 6, "dir": "H", "pista": "Conexión a internet sin usar cables" },
+      { "id": 5, "palabra": "ANIME", "fila": 4, "col": 0, "dir": "H", "pista": "Animación japonesa que mirás en la compu" },
+      { "id": 6, "palabra": "BLOG", "fila": 4, "col": 6, "dir": "H", "pista": "Sitio web donde la gente escribe artículos" },
+      { "id": 7, "palabra": "CONSOLA", "fila": 6, "col": 0, "dir": "H", "pista": "PlayStation o Xbox, máquina para jugar" },
+      { "id": 8, "palabra": "AUDIO", "fila": 8, "col": 0, "dir": "H", "pista": "Lo que escuchás cuando te ponés los auriculares" },
+      { "id": 9, "palabra": "SITE", "fila": 8, "col": 6, "dir": "H", "pista": "Sitio web en inglés (Web ____)" },
+      { "id": 10, "palabra": "MODEM", "fila": 0, "col": 3, "dir": "V", "pista": "Aparato que te da el proveedor de internet" },
+      { "id": 11, "palabra": "API", "fila": 0, "col": 9, "dir": "V", "pista": "Interfaz para conectar software (Siglas)" },
+      { "id": 12, "palabra": "WEBCAMS", "fila": 2, "col": 6, "dir": "V", "pista": "Cámaras que usan los streamers en Twitch (Plural)" },
+      { "id": 13, "palabra": "CHAT", "fila": 6, "col": 0, "dir": "V", "pista": "Donde le escribís mensajes a los pibes" },
+      { "id": 14, "palabra": "BYTE", "fila": 6, "col": 8, "dir": "V", "pista": "Unidad de datos informáticos equivalente a 8 bits" }
+    ]
+  }
+]
