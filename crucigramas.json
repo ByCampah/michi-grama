@@ -42,5 +42,61 @@
       { "id": 13, "palabra": "CHAT", "fila": 6, "col": 0, "dir": "V", "pista": "Donde le escribís mensajes a los pibes" },
       { "id": 14, "palabra": "BYTE", "fila": 6, "col": 8, "dir": "V", "pista": "Unidad de datos informáticos equivalente a 8 bits" }
     ]
+  },
+  {
+    "nivel": 3,
+    "titulo": "Cine y Pantallas",
+    "filas": 10,
+    "columnas": 10,
+    "pistas": [
+      { "id": 1, "palabra": "OSCAR", "fila": 0, "col": 0, "dir": "H", "pista": "El premio anual más famoso de la industria del cine mundial" },
+      { "id": 2, "palabra": "CINE", "fila": 0, "col": 3, "dir": "V", "pista": "Establecimiento para ver películas, el séptimo arte" },
+      { "id": 3, "palabra": "SERIE", "fila": 2, "col": 5, "dir": "H", "pista": "Producción audiovisual de muchos capítulos en Netflix o HBO" },
+      { "id": 4, "palabra": "TREN", "fila": 4, "col": 0, "dir": "H", "pista": "Locomotora protagonista de la mítica primera película de los Lumière" },
+      { "id": 5, "palabra": "TEATRO", "fila": 4, "col": 0, "dir": "V", "pista": "Arte escénico de representar historias en vivo frente a un público" },
+      { "id": 6, "palabra": "MANGA", "fila": 4, "col": 5, "dir": "H", "pista": "Cómic de origen japonés que se lee de derecha a izquierda" },
+      { "id": 7, "palabra": "ACTOR", "fila": 6, "col": 0, "dir": "H", "pista": "Persona que interpreta profesionalmente un papel en cine o series" },
+      { "id": 8, "palabra": "RISA", "fila": 6, "col": 4, "dir": "V", "pista": "Reacción sonora feliz al ver una buena película de comedia" },
+      { "id": 9, "palabra": "TELE", "fila": 0, "col": 6, "dir": "H", "pista": "Aparato de pantalla clásico del living donde se miraba el cable" },
+      { "id": 10, "palabra": "HEROE", "fila": 0, "col": 9, "dir": "V", "pista": "Personaje con capa o poderes que salva el día en los cómics de Marvel" },
+      { "id": 11, "palabra": "BANDA", "fila": 0, "col": 6, "dir": "V", "pista": "Grupo de músicos que componen la música de fondo de una peli" }
+    ]
+  },
+  {
+    "nivel": 4,
+    "titulo": "Deportes y Pasión",
+    "filas": 10,
+    "columnas": 10,
+    "pistas": [
+      { "id": 1, "palabra": "GOL", "fila": 0, "col": 0, "dir": "H", "pista": "Tanto marcado que se grita con el alma en el fútbol" },
+      { "id": 2, "palabra": "GOMA", "fila": 0, "col": 0, "dir": "V", "pista": "Útil de cartuchera elástico para borrar el lápiz" },
+      { "id": 3, "palabra": "LIGA", "fila": 0, "col": 2, "dir": "V", "pista": "Torneo o campeonato deportivo de equipos profesionales" },
+      { "id": 4, "palabra": "ARO", "fila": 2, "col": 1, "dir": "H", "pista": "Estructura metálica donde se encesta la pelota en básquetbol" },
+      { "id": 5, "palabra": "MESSI", "fila": 0, "col": 6, "dir": "V", "pista": "Apellido del capitán y número diez de la selección argentina" },
+      { "id": 6, "palabra": "COPA", "fila": 5, "col": 2, "dir": "H", "pista": "Trofeo dorado o de plata que se levanta al salir campeones" },
+      { "id": 7, "palabra": "CLUB", "fila": 5, "col": 2, "dir": "V", "pista": "Institución deportiva o social, como tu amado Almagro" },
+      { "id": 8, "palabra": "ORO", "fila": 5, "col": 3, "dir": "V", "pista": "El metal precioso que compone la medalla del primer puesto" },
+      { "id": 9, "palabra": "PASO", "fila": 5, "col": 4, "dir": "V", "pista": "Movimiento regular de los pies al caminar o avanzar" },
+      { "id": 10, "palabra": "FIFA", "fila": 6, "col": 6, "dir": "H", "pista": "Federación internacional dueña del fútbol a nivel mundial" },
+      { "id": 11, "palabra": "FAN", "fila": 8, "col": 6, "dir": "H", "pista": "Seguidor o hincha acérrimo de un equipo en inglés" }
+    ]
+  },
+  {
+    "nivel": 5,
+    "titulo": "Música y Ritmo",
+    "filas": 10,
+    "columnas": 10,
+    "pistas": [
+      { "id": 1, "palabra": "CORO", "fila": 0, "col": 0, "dir": "H", "pista": "Grupo de personas que cantan juntas en una iglesia o teatro" },
+      { "id": 2, "palabra": "CANTO", "fila": 0, "col": 0, "dir": "V", "pista": "Acción de usar la voz para hacer hermosas melodías" },
+      { "id": 3, "palabra": "PIANO", "fila": 0, "col": 5, "dir": "H", "pista": "Instrumento de cuerda percutida con teclas blancas y negras" },
+      { "id": 4, "palabra": "PINTO", "fila": 0, "col": 5, "dir": "V", "pista": "Yo coloreo un lienzo o un cuadro con pincel (Verbo)" },
+      { "id": 5, "palabra": "NOTA", "fila": 2, "col": 0, "dir": "H", "pista": "Símbolo que representa la altura de un sonido, como Do o Re" },
+      { "id": 6, "palabra": "OBOE", "fila": 4, "col": 0, "dir": "H", "pista": "Instrumento de viento-madera clásico de forma tubular" },
+      { "id": 7, "palabra": "ECO", "fila": 4, "col": 3, "dir": "V", "pista": "Fenómeno acústico donde el sonido rebota y se repite" },
+      { "id": 8, "palabra": "OVAL", "fila": 6, "col": 3, "dir": "H", "pista": "Forma geométrica curva parecida a la de un huevo" },
+      { "id": 9, "palabra": "ARTE", "fila": 6, "col": 5, "dir": "V", "pista": "Expresión estética y creativa de los seres humanos" },
+      { "id": 10, "palabra": "TEMA", "fila": 8, "col": 4, "dir": "H", "pista": "Sinónimo directo de canción o pista musical" }
+    ]
   }
 ]
